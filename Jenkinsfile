@@ -10,7 +10,7 @@ jdk 'java-11'
 stages{
 stage('git-checkout'){
 steps{
- git branch: 'version1', url: ''
+ git branch: 'version1', url: 'https://github.com/Bharat11784/githubjenkins.git'
 }
 }
 stage('compile'){
